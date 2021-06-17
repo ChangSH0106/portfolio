@@ -1,0 +1,679 @@
+<html>
+<head>
+<title>ice cream</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript">
+
+function 일단은이거 {
+	let clickimg = document .querySelector(".clickimg")
+	menu.classList.toggle("hhhhh")
+}
+
+</script>
+
+
+
+<style type="text/css">
+	html, body {
+		margin: 0;
+	}
+
+	#펭귄:hover {
+		animation: shake 0.4s;
+
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -470;
+  left: -10;
+  width: 1100;
+  height: 1100;
+  transform: scale(0);
+  transition: .5s ease;
+  border-radius: 70%
+}
+
+.container:hover .overlay {
+  transform: scale(1);
+  transition-delay: 0.4s
+}
+
+.bigcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.bigoverlay {
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  bottom: -1070;
+  left: -610;
+  width: 2300;
+  height: 2300;
+  transform: scale(0);
+  transition: 1s ease;
+  border-radius: 70%
+}
+
+.bigcontainer:active .bigoverlay {
+  transform: scale(1);
+}
+
+.clickimg {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2300;
+    height: 2300;
+    object-fit: cover;
+	transform: translate(-50%, -50%);
+}
+
+
+</style>
+
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table id="Table_01" width="1080" height="5725" border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+		<td>
+			<div>
+
+				<div style="position: absolute;">
+				
+				<div style="position: relative; top: 100px; left: 80px;">
+					<div id="펭귄">
+					<img src="images/lover duck.png" width="247" height="237.55" alt=""></img>
+				    </div>
+				</div>
+				
+				</div>
+				
+				<div style="position: absolute;">
+				
+				<div style="position: relative; top: 230px; left: 405px;">
+					<div id="펭귄">
+					<img src="images/penguin.png" width="163" height="194.5" alt=""></img>
+				    </div>
+				</div>
+				
+				</div>
+				
+				<img src="images/index-ice-1_01.png" width="1080" height="605" alt=""></img>
+				
+				</div>
+        </td>
+	</tr>
+	<tr>
+		<td>
+		<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_02.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+			    <div class="text">
+				    밀크 초콜릿, 다크 초콜릿, 화이트 무스 세 가지 아이스크림에 달콤 바삭한 초코볼까지!
+			    </div>
+			    </div>
+		    </div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/엄마는 외계인.png">
+			</div>
+		</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_03.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					입안 가득 즐거운 초콜릿, 아몬드로 더욱 달콤하게!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/아몬드 봉봉.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_04.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					쿨한 그녀들의 선택! 상쾌한 민트향에 초코칩까지!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/민트 초콜릿 칩.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_05.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					부드럽게 즐기는 뉴욕식 정통 치즈케이크 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/뉴욕 치즈케이크.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_06.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					체리과육이 탱글탱글 씹히는 체리아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/체리쥬빌레.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_07.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					톡톡 터지는 팝핑 캔디와 스프링클 캔디,</br>
+					상큼한 체리 시럽이 들어있는 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/슈팅스타.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_08.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					부드러운 바닐라향 아이스크림에,</br>
+					달콤하고 진한 오레오 쿠키가 듬뿍!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/오레오 쿠키 앤 크림.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_09.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					블루베리와 딸기로 상큼한을 더한 치즈케이크 한 조각
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/바람과 함께 사라지다.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_10.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					크런치 초콜릿, 치즈 케이크, 스트로베리가</br>
+					듬뿍 들어있는 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/사랑에 빠진 딸기.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_11.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					초콜릿 아이스크림과 바닐라 아이스크림 속에</br>
+					초코코팅 홈런볼과 피넛이 쏙쏙
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/아이스 홈런볼.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_12.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					고소하고 향긋한 호두 아이스크림에 호두가 듬뿍
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/메이플 월넛.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_13.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #969696;">
+				<div class="text">
+					반전 매력이 가득! 까만 아이스크림에 상큼한 맛이 가득!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/블랙 소르베.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_14.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					뉴욕 치즈케이크, 카라멜 치즈케이크, 까망베르 치즈케이크</br>
+					세가지 치즈 아이스크림의 조화!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/트리플 치즈 러브.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_15.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #969696;">
+				<div class="text">
+					딸기, 블루베리, 바닐라향 아이스크림에 롤리팜 캔디가 쏘옥~
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/러브미.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_16.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #969696;">
+				<div class="text">
+					두가지 딸기 아이스크림과 바닐라향 아이스크림에</br>
+					봉봉 프레첼이 쏘옥~!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/아빠는 딸바봉.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_17.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					부드러운 크림치즈 아이스크림과</br>
+					마카롱, 초콜릿의 달콤한 만남!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/봉쥬르, 마카롱.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_18.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					2014년 아이스크림 콘테스트 1위 선정작!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/초코나무 숲.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_19.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					피스타치오향과 아몬드가 만나 고소함이 두배!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/피스타치오 아몬드.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_20.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					새큼상큼 딸기과육이 듬뿍!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/베리베리 스트로베리.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_21.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #969696;">
+				<div class="text">
+					상큼한 파인애플, 오렌지, 라즈베리 샤베트
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/레인보우 샤베트.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_22.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					깊고 풍부한 자모카 아이스크림에</br>
+					고소한 아몬드와 초콜릿 훠지 시럽까지
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/자모카 아몬드 훠지.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_23.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					부드럽고 달콤한 솜사탕과 함께 떠나는</br>
+					이상한 나라로의 여행
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/이상한 나라의 솜사탕.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_24.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					진하고 부드러운 정통 초콜릿 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/초콜릿.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_25.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					유산균이 살아있는 오리지널 요거트 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/31요거트.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_26.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					엄선된 녹차를 사용한 싱그러운 그린티 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/그린티.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_27.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					부드럽고 깔끔한 바닐라 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/바닐라.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_28.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #008cff;">
+				<div class="text">
+					초콜릿 칩이 들어있는 진한 초콜릿 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/초콜릿 무스.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_29.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					부드러운 크림치즈 아이스크림에</br>
+					오레오 쿠키와 크림치즈 크런치가 쏘옥~
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/오레오 쿠키 앤 크림치즈.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_30.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					파인애플 샤베트, 라즈베리 샤베트, 오렌지 샤베트에,</br>
+					상큼한 레몬&라임 샤베트가 어우러진 제품
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/오버 더 레인보우 샤베트.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_31.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					무설탕 초콜릿 첨가로 더욱 깔끔하게 즐기는 아이스크림
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/매드 어바웃 초콜릿.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_32.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					고소한 흑임자, 인절미 아이스크림에</br>
+					쫄깃한 떡리본과 바삭한 프랄린 피칸이 쏙쏙!
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/쫀떡궁합.png">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="bigcontainer">
+			<div class="container">
+			<img src="images/index-ice-1_33.png" width="1080" height="160" alt="Avatar" class="image">
+			<div class="overlay" style="background-color: #ff0077;">
+				<div class="text">
+					후레쉬한 멜론의 진하고 부드러운 맛
+				</div>
+				</div>
+			</div>
+			<div class="bigoverlay" style="background-color: #ffffff;">
+				<img class="clickimg" src="images/머스크멜론.png">
+			</div>
+		</td>
+	</tr>
+
+</table>
+<!-- End Save for Web Slices -->
+</body>
+</html>
